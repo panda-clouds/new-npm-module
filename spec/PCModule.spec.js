@@ -1,11 +1,11 @@
 
-const <PCName> = require('../src/<PCName>.js');
+const MODULE_NAME = require('../src/MODULE_NAME.js');
 const PCParseRunner = require('@panda-clouds/parse-runner');
 
 describe('the <PCName>.js class', () => {
 	const parseRunner = new PCParseRunner();
 
-	parseRunner.helperClass('./<PCName>.js');
+	parseRunner.helperClass('./MODULE_NAME.js');
 	parseRunner.projectDir(__dirname + '/..');
 
 	beforeAll(async () => {

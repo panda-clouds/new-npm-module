@@ -1,4 +1,4 @@
-class <PCName> {
+class MODULE_NAME {
 	constructor() {
 		// Empty Constructor
 	}
@@ -8,4 +8,4 @@ class <PCName> {
 	}
 }
 
-module.exports = <PCName>;
+module.exports = MODULE_NAME;
