@@ -24,6 +24,6 @@
     "@panda-clouds/eslint-config-panda-clouds": "^0.9.0",
     "eslint": "^6.2.0",
     "eslint-plugin-jasmine": "^2.10.1",
-    "jest": "^24.9.0"
+    "jest": "^27.0.6"
   }
 }
